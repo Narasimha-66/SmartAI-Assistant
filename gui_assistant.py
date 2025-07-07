@@ -128,7 +128,7 @@ app.geometry("500x400")
 response_box = scrolledtext.ScrolledText(app, wrap=tk.WORD, width=60, height=15)
 response_box.pack(padx=10, pady=10)
 
-listen_button = tk.Button(app, text="🎤 Start Listening", command=start_listening)
+listen_button = tk.Button(app, text="Start Listening", command=start_listening)
 listen_button.pack(pady=5)
 
 exit_button = tk.Button(app, text="Exit", command=app.destroy)
