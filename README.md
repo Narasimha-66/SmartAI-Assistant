@@ -1,8 +1,10 @@
 # SmartAI Assistant - "Spark"
+
 A voice-controlled smart assistant built with Python. 
 **Spark** can tell jokes, fetch weather, set alarms & reminders, give you Wikipedia summaries, and more — all through a simple GUI.
 
 # Features
+
   >> Voice Recognition(Speech to text)
   >> Get current time
   >> Tell jokes using pyjokes
@@ -13,6 +15,7 @@ A voice-controlled smart assistant built with Python.
   >> User-friendly Tkinter GUI
 
 # Project Structure
+
   SmartAIassistant/-
   |
   |--gui_assistant.py
@@ -25,6 +28,7 @@ A voice-controlled smart assistant built with Python.
   |-- .env
 
 # Requirements
+
  >> python 3.10+
  >> speechrecogintion
  >> pyttsx3
@@ -35,14 +39,17 @@ A voice-controlled smart assistant built with Python.
  >>  tkinter(comes preinstalled with python)
 
 ## Security Note
+
   Make sure your `.env` file is **Not uploaded** to GitHub.
   It's already ignored using `.gitignore`, so your API keys remain safe.
 
 ## Screenshot
+
   Here's a preview of the assistant GUI:
   ![screenshot](screenshot.png)
 
 ## Author
+
   *Narasimha Jaladurgam*
   [GitHub Profile](https://github.com/Narasimha-66)
 
