@@ -131,7 +131,7 @@ response_box.pack(padx=10, pady=10)
 listen_button = tk.Button(app, text="🎤 Start Listening", command=start_listening)
 listen_button.pack(pady=5)
 
-exit_button = tk.Button(app, text="⛔ Exit", command=app.destroy)
+exit_button = tk.Button(app, text="Exit", command=app.destroy)
 exit_button.pack(pady=5)
 
 app.mainloop()
